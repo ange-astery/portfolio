@@ -1,9 +1,11 @@
-function Hello() {
-  return (
-    <div>
-      <h1>Ange Orelien</h1>
-    </div>
-  );
+import Hero from './components/Hero'
+
+function App() {
+    return (
+        <main>
+            <Hero />
+        </main>
+    )
 }
 
-export default Hello;
+export default App
