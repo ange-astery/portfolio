@@ -1,3 +1,4 @@
+import avatar from '../assets/avatar.webp'
 import Avatar from './Avatar'
 import Status from './Status'
 import TopPill from './TopPill'
@@ -18,7 +19,7 @@ function Hero() {
                 </TopPill>
             </div>
 
-            <Avatar alt={`Portrait of ${name}`} size={112} />
+            <Avatar src={avatar} alt={`Portrait of ${name}`} size={112} />
 
             <p className="text-lg text-muted">{name}</p>
 
