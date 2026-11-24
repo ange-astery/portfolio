@@ -1,3 +1,4 @@
+import ThemeToggle from './ThemeToggle'
 import avatar from '../assets/avatar.webp'
 import Avatar from './Avatar'
 import Status from './Status'
@@ -12,7 +13,7 @@ function Hero() {
     <section className="relative flex min-h-screen flex-col items-center justify-center gap-6 px-6 text-center">
       <div className="absolute top-6">
         <TopPill>
-          <span className="px-4">theme</span>
+          <ThemeToggle />
           <span className="px-4">play</span>
           <a href="#about" className="px-4">
             about
