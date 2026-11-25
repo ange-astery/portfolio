@@ -5,8 +5,17 @@ Minimal home page, a dock that opens pages, light and dark themes, Astery palett
 
 ## Run locally
 
+```bash
 npm install
 npm run dev
+```
+
+## Scripts
+
+- `npm run dev` starts the dev server
+- `npm run build` builds for production
+- `npm run lint` checks the code
+- `npm run format` formats the code with Prettier
 
 ## Status
 
