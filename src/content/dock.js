@@ -1,30 +1,25 @@
 // Pages that will open from the dock (routing comes in lesson 7)
 export const dockPages = [
   {
+    id: 'whoami',
+    label: 'Whoami',
+    initials: '~$',
+    tone: 'bg-primary-600',
+    to: '/whoami',
+  },
+  {
+    id: 'education',
+    label: 'Education',
+    initials: 'Ed',
+    tone: 'bg-primary-700',
+    to: '/education',
+  },
+  {
     id: 'projects',
     label: 'Projects',
     initials: 'Pr',
     tone: 'bg-secondary-500',
-  },
-  { id: 'astery', label: 'Astery lab', initials: 'As', tone: 'bg-primary-600' },
-  {
-    id: 'polytech',
-    label: 'Polytech Dijon',
-    initials: 'PD',
-    tone: 'bg-primary-700',
-  },
-  {
-    id: 'spad',
-    label: 'SPAD Cameroon',
-    initials: 'SP',
-    tone: 'bg-primary-800',
-  },
-  { id: 'iai', label: 'IAI Cameroon', initials: 'IA', tone: 'bg-primary-700' },
-  {
-    id: 'mega-ique',
-    label: 'MEGA-IQUE',
-    initials: 'ME',
-    tone: 'bg-primary-600',
+    to: '/projects',
   },
 ]
 
@@ -41,7 +36,7 @@ export const dockLinks = [
     id: 'github',
     label: 'GitHub',
     initials: 'GH',
-    tone: 'bg-neutral-900',
+    tone: 'bg-neutral-700',
     href: 'https://github.com/ange-astery',
   },
   {
@@ -52,10 +47,10 @@ export const dockLinks = [
     href: 'https://www.instagram.com/ange.astery/',
   },
   {
-    id: 'email',
-    label: 'Email',
-    initials: '@',
-    tone: 'bg-primary-500',
-    href: 'mailto:hello@example.com',
+    id: 'mail',
+    label: 'Mail',
+    initials: 'Ma',
+    tone: 'bg-[#0f96c2]',
+    href: 'https://www.instagram.com/ange.astery/',
   },
 ]
