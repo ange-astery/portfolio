@@ -46,4 +46,11 @@ export const dockLinks = [
     tone: 'bg-secondary-600',
     href: 'https://www.instagram.com/ange.astery/',
   },
+  {
+    id: 'mail',
+    label: 'Mail',
+    initials: 'Ma',
+    tone: 'bg-[#0f96c2]',
+    href: 'https://www.instagram.com/ange.astery/',
+  },
 ]
